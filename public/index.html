@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../src/styles/main.css" rel="stylesheet" type="text/css">
+    <title>Document</title>
+</head>
+<body>
+    <button class="btn-hidden-columns">Скрыть все колонки</button>
+    <table class="table-data">
+        <thead>
+          <tr>
+            <th class="firstName tableHead">Имя</th>
+            <th class="lastName tableHead">Фамилия</th>
+            <th class="about tableHead">Описание</th>
+            <th class="eyeColor tableHead">Цвет глаз</th>
+          </tr>
+        </thead>
+        <tbody class="main-data">
+          
+        </tbody>
+      </table>
+   
+      <div class="form-hidden">
+        <form action="" class="form">
+          <p class="form-text">Имя: <input type="text"></p>
+          <p class="form-text">Фамилия: <input type="text"></p>
+          <p class="form-text">Описание: <textarea name="about"></textarea></p>
+          <p class="form-text">Цвет глаз: <input type="text"></p>
+        </form>
+        <div class="form-btn">
+        <button class="btn-edit">ОK</button>
+        <button class="btn-close">Закрыть</button>
+        </div>
+      </div>
+
+</div>
+    <script type="module" src="./src/index.js"></script>
+</body>
+</html>
